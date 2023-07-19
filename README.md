@@ -8,6 +8,8 @@ This should make future changes to the webpage easier to manage, and should be e
 
 By renaming the many div tags in the HTML, the code should be easier to follow and compare to the CSS style sheet, and will make the CSS style sheet easier to understand.
 
+![image](https://github.com/brian-wastle/Module-1-Challenge/assets/138018390/a7aea4df-87dd-4161-8d7f-64a15675a866)
+
 ## Installation
 
 N/A
@@ -22,4 +24,5 @@ Alt tags have been added to each image on the page, as well as an aria tag for t
 
 MacDonald, David (2023, July 19). Alternate text for background images. CanAdapt. http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
 
-
+## Links
+https://brian-wastle.github.io/Module-1-Challenge/
