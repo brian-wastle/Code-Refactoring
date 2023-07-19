@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+} 
+
+header { /*Changed this from class selector to element selector*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 { /*Removed class selector as all h1 elements exist within this class*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.seo { /*Removed 'header' class selector and h1 element selector as both were redundant*/
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header a { /*Removed redundant selectors, and removed redunant anchor tag selector below*/
+    list-style-type: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header li { /*Removed redundant selectors*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.class-content { /*Consolidated similar classes under div class "content" into one, as they are redunant */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.class-content img { /*Consolidated into 1 class due to redundancy, see .class-content tag above*/
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.class-content h2 { /*Consolidated into 1 class due to redundancy, see .class-content tag above*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead { /*Consolidated all div classes under the div class "benefits" into a single class*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 { /*removed class selector as all h3 headings exist within this class*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img { /*Consolidated all img elements under the new div class "benefit-lead" into a single tag*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer { /*changed from class selector to element selector*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 { /*changed from class selector to element selector*/
+    font-size: 20px;
+}
