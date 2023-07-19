@@ -1,4 +1,4 @@
-# Prework Study Guide Webpage
+# Module 1 Challenge - Horiseon Code Refactoring
 
 ## Description
 
